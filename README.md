@@ -124,17 +124,6 @@ th reinforce.lua --DynamicTPG --tempMin 0.5 --tempMax 1.5 --epochs 80 --earlySto
 | Parallel-TPG   | 73.86%|
 | Dynamic-TPG   | 74.31%| 
 
-
-4. Citation:
-```
-@inproceedings{zhao2018temperedpg,
-  title={Improving Goal-Oriented Visual Dialog Agents via Advanced Recurrent Nets with Tempered Policy Gradient},
-  author={Zhao, Rui and Tresp, Volker},
-  booktitle={International Joint Conference on Artificial Intelligence (IJCAI Workshop)},
-  year={2018}
-}
-```
-
 [1]: http://torch.ch/
 [2]: https://github.com/torch/torch7
 [3]: https://github.com/torch/nn
