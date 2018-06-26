@@ -1,0 +1,8 @@
+*.jsonl.gz
+*.html
+*.zip
+*.test.lua
+*.test.py
+*.log
+*.log~
+*.pyc
