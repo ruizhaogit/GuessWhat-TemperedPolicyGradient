@@ -5,10 +5,9 @@ https://github.com/GuessWhatGame/guesswhat.
 
 This repo is based on Torch7 (Lua) and improves the performance by 14% using advanced RNN structures and Tempered Policy Gradient.  
 
-For more details, please refer to our paper:  
+For more details, please refer to our paper on arXiv:  
 "Improving Goal-Oriented Visual Dialog Agents via Advanced Recurrent Nets with Tempered Policy Gradient".  
 ArXiv link: https://arxiv.org/abs/1807.00737  
-The paper is accepted as oral presentation at IJCAI 2018 workshop Linguistic and Cognitive Approaches To Dialog Agents (LaCATODA 2018), link: http://arakilab.media.eng.hokudai.ac.jp/LACATODA2018/LACATODA2018/About.html.  
 
 The code was developed by Rui Zhao (Siemens AG & Ludwig Maximilian University of Munich).  
 The implementation is tested on Ubuntu 14.04 using a single GPU with 12GB memory.  
