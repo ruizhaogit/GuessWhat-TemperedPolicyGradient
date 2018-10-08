@@ -125,6 +125,8 @@ th reinforce.lua --DynamicTPG --tempMin 0.5 --tempMax 1.5 --epochs 80 --earlySto
 
 5. Citation:
 
+Citation of the preprint version:
+
 ```
 @article{zhao2018improving,
   title={Improving Goal-Oriented Visual Dialog Agents via Advanced Recurrent Nets with Tempered Policy Gradient},
