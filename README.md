@@ -4,6 +4,7 @@ The original GuessWhat?! Game repo is based on TensorFlow and available at:
 https://github.com/GuessWhatGame/guesswhat.  
 
 This repo is based on Torch7 (Lua) and improves the performance by 14% using advanced RNN structures and Tempered Policy Gradient.  
+The paper is avaliable at https://arxiv.org/abs/1807.00737
 
 The code was developed by Rui Zhao (Siemens AG & Ludwig Maximilian University of Munich).  
 The implementation is tested on Ubuntu 14.04 using a single GPU with 12GB memory.  
@@ -121,6 +122,17 @@ th reinforce.lua --DynamicTPG --tempMin 0.5 --tempMax 1.5 --epochs 80 --earlySto
 | Single-TPG     | 69.76% |
 | Parallel-TPG   | 73.86%|
 | Dynamic-TPG   | 74.31%| 
+
+5. Citation:
+
+```
+@article{zhao2018improving,
+  title={Improving Goal-Oriented Visual Dialog Agents via Advanced Recurrent Nets with Tempered Policy Gradient},
+  author={Zhao, Rui and Tresp, Volker},
+  journal={arXiv preprint arXiv:1807.00737},
+  year={2018}
+}
+```
 
 [1]: http://torch.ch/
 [2]: https://github.com/torch/torch7
