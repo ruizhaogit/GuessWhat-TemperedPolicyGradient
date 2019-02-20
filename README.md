@@ -125,7 +125,7 @@ th reinforce.lua --DynamicTPG --tempMin 0.5 --tempMax 1.5 --epochs 80 --earlySto
 
 5. Citation:
 
-Citation of the preprint version:
+Citation of the IJCAI workshop paper:
 
 ```
 @article{zhao2018improving,
@@ -133,6 +133,19 @@ Citation of the preprint version:
   author={Zhao, Rui and Tresp, Volker},
   journal={arXiv preprint arXiv:1807.00737},
   year={2018}
+}
+```
+
+Citation of the published IEEE SLT paper:
+
+```
+@inproceedings{zhao2018learning,
+  title={Learning goal-oriented visual dialog via tempered policy gradient},
+  author={Zhao, Rui and Tresp, Volker},
+  booktitle={2018 IEEE Spoken Language Technology Workshop (SLT)},
+  pages={868--875},
+  year={2018},
+  organization={IEEE}
 }
 ```
 
